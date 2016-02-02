@@ -12,7 +12,6 @@ $html = new html($data);
 
 $html->run();
 
-
 class html{
     public $data;
 
