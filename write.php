@@ -11,7 +11,6 @@ require_once "data.php";
 $html = new html($data);
 
 $html->run();
-
 class html{
     public $data;
 
