@@ -1,0 +1,24 @@
+
+通过定义data.php文件里的data数组，运行write.php,快速创建html文件标签结构
+
+示例:
+$data=[
+    'html'=>[
+        'list-a'=>[  //html文件名
+            '#a:p'=>[ //id名称 p标签名
+                'a1'=>['a1a:img','a1b','a1c'], //默认 div class 名
+                'a2'=>[],
+                'a3'=>[],
+            ],
+
+            'b'=>[],
+            'c'=>[],
+            'd'=>[],
+        ],
+];
+
+运行命令行：
+php wirte.php
+
+生成目录 html
+
